@@ -10,7 +10,7 @@
 #include <sys/stat.h>
 
 /*---MACROS---*/
-#define TOK_DELIM "\t\r\n\a\""
+#define TOK_DELIM " \n"
 
 void shell_interactive(void);
 void shell_inactive(void);
